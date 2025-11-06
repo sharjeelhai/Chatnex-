@@ -1,0 +1,48 @@
+name: chatnex
+description: "A new Flutter project."
+
+# The following line prevents the package from being accidentally published to pub.dev
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # UI
+  cupertino_icons: ^1.0.8
+  lottie: ^3.0.0
+  animated_text_kit: ^4.2.2
+  # State Management
+  provider: ^6.1.1
+
+  # API & Network
+  http: ^1.1.0
+
+  # Voice Features
+  flutter_tts: ^4.0.2
+  speech_to_text: ^7.0.0
+  permission_handler: ^11.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.13.1
+  flutter_lints: ^5.0.0
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon/icon.png"
+  adaptive_icon_background: "#4A90E2"
+  adaptive_icon_foreground: "assets/icon/icon.png"
+
+flutter:
+  uses-material-design: true
+  # assets:
+    # - assets/icon/
+    # - assets/animations/
